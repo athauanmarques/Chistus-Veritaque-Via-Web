@@ -14,14 +14,26 @@
 
 <body background="img/bg-cvv.png">
 
-   
-
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
-        .logo,
-        h1 {
+    
+
+        .logo, h1 {
             font-family: 'Alex Brush', cursive;
+            text-align: center;
+            color: #ffc868;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+        .logo{
+            font-size:30px;
+        }
+
+        .subTitulo{
+            color: #d6a85a;
         }
 
         .bgBarra{
@@ -35,23 +47,20 @@
 
     <header class="container-fluid">
         <div class="row justify-content-center bgBarra ">
-            <div class="col-xs-1-12 mt-3 ">
-                <img src="img/logo.png" alt="">
+            <div class="col-xs-1-12 pt-3">
+                <img class="img-fluid m-0" src="img/logo.png" alt="">
             </div>
         </div>
         <div class="row justify-content-center bgBarra">
             <div class="col-xs-1-12">
-                <b class="logo">Chistus Veritaque Via</b>
+                <p class="logo  m-0">Chistus Veritaque Via</p>
+                <p class="h6 text-center subTitulo mx-3 ">O seu Terço nas suas mãos</p>   
             </div>
         </div>    
-            <div class="row justify-content-center bgBarra">
-                <div class="col-xs-1-12">
-                    <b>O seu Terço nas suas mãos</b>
-                </div>
-            </div>
             <div class="row justify-content-center">
             <div class="col-xs-1-12">
-                <img id="barra" src="img/barraSuperior.svg" alt="">
+                <img id="barra" class="img-fluid"  src="img/barraSuperior.svg" alt="">
+        
             </div>
         </div>
     </header>
@@ -59,30 +68,29 @@
 
     
 
-    <section id="seuFilaLivre">
+    <section>
         <div class="container">
             <div class="row">
 
                 <div class="col-md-6 p-5">
                     <!-- coluna 1-->
-                    <img class="img-fluid" src="img/screenApp.png" height="200px">
+                    <img class="img-fluid" src="img/screenApp.png">
                 </div>
-
                 <div class="col-md-6 p-5">
                     <!-- coluna 2-->
-                    <div class="row">
+                    <div class="row  justify-content-md-center">
                         <div class="col-xl-1-12">
                             <h1>Elegante, Simples e Prático</h1>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row  justify-content-md-center ">
                         <div class="col-xl-1-12">
-                            <p class="h3">Reze o seu santo terço tos os dias</p>
-                            <p class="h3">Em qualquer lugar em qualque hora</p>
+                            <p class="h3 text-light">Reze o seu santo terço tos os dias</p>
+                            <p class="h3 text-light">Em qualquer lugar em qualque hora</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-1-12">
+                    <div class="row align-items-end">
+                        <div class="col align-self-end mt-5">
                             <img src="img/googlePlay.png" class="img-fluid">
                             <i>Faça o seu cadastro e abaixe agora</i>
                         </div>
